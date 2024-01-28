@@ -3,6 +3,7 @@ package com.luizafmartinez.m01_foiclicado
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,5 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     fun clicar(view: View) {
         println("O botão foi clicado!")
+        Toast.makeText(this, "Foi Clicado!!", Toast.LENGTH_SHORT).show()
     }
+
 }
