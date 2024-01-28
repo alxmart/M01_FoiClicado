@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">M01_FoiClicado</string>
+    <string name="tvTitleText">Primeiro Projeto da Mentoria</string>
+    <string name="btnCliqueText">Clique Aqui</string>
 </resources>
